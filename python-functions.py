@@ -7,3 +7,16 @@ def sum_to(n):
   return int
 
 print(sum_to(6))
+
+
+
+# 2. Write a function named largest that takes a list of numbers as an argument and returns the largest number in that list.
+
+def largest(nums):
+  nums.sort()
+  return nums[-1]
+
+print(largest([4, 46, 56, 454, 45, 86, 76]))
+
+
+# 3. Write a function named occurances that takes two string arguments as input and counts the number of occurances of the second string inside the first string.
